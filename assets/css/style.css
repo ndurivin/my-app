@@ -1,0 +1,249 @@
+
+/*  font-family: 'Actor', sans-serif;
+    font-family: 'Adamina', serif;  
+    font-family: 'Comfortaa', cursive;
+    font-family: 'Poppins', sans-serif; */
+
+/* Global variables  */
+@import url('https://fonts.googleapis.com/css2?family=Actor&family=Adamina&family=Comfortaa:wght@700&family=Poppins:wght@400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: #ffff;
+}
+
+.container{
+    width: 100%;
+    min-height: 30vh;
+}
+
+#main{
+    width: 70%;
+    margin: auto;
+}
+
+/* Header & Navbar section  */
+#header{
+    background-color: #800000;
+    color: #ffff;
+    height: 6vh;
+}
+
+#navbar{
+    display: flex;
+    justify-content: center
+}
+
+/* Search box section  */
+Form{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+Form > input{
+    width: 500px;
+    height: 35px;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 16px;  
+}
+
+.btn-search{
+    padding: 5px 15px;
+    border-radius: 5px;
+    color: #ffff;
+    background-color: #800000;
+    border: none;
+}
+
+/* Search box section  */
+Form{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+Form > input{
+    width: 500px;
+    height: 35px;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 16px;  
+}
+
+.btn-search{
+    padding: 5px 15px;
+    border-radius: 5px;
+    color: #ffff;
+    background-color: #800000;
+    border: none;
+}
+
+/* Developers' profiles area  */
+.topContent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 60px;
+    gap: 20px;
+}
+
+#users li:hover{
+cursor: pointer;
+background-color: #800000;
+color: #ffff;
+width: 230px;
+    
+}
+
+#btnToggle{
+    padding: 15px 25px;
+    border-radius: 6px;
+    background-color: #800000;
+    border: none;
+    color: #ffff;
+    font-weight: 900;
+    margin-bottom: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#userNames{
+    align-items: center;
+    justify-content: center;
+    display: none;
+    width: 280px;
+    height: 27vh;
+    overflow-y: scroll;
+    margin-bottom: 30px;
+}
+
+#userProfiles{
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    min-height: 35vh;
+    background-color: #800000;
+    border-radius: 15px;
+}
+
+.profileDetails{
+    color: #ffff;
+    padding-top: 35px;
+    padding-right: 100px;
+    font-weight: 900;
+}
+
+#devName{
+    font-size: 22px;
+}
+
+#expertise{
+    color: #ffff;
+}
+
+.expert{
+    background-color: #000000;
+    padding: 2px 6px;
+    cursor: pointer;
+    margin-right: 7px;
+}
+
+#image{
+    padding: 60px 42px;
+}
+
+#image > img{
+    border-radius: 50%;
+}
+
+.users-list{
+    list-style: none;
+    text-transform: capitalize;
+}
+
+#devNames{
+    cursor: pointer;
+}
+
+ .firstName{
+    font-size: 17px;
+    text-transform: capitalize;
+}
+
+#expertise{
+    display: flex;
+    justify-content: space-around;
+}
+
+.bottomContent{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    padding: 30px;
+    width: 100%;
+    min-height: 20vh;
+    background-color: antiquewhite;
+}
+
+form > input{
+    /* border-radius: 5px; */
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 400px;
+}
+
+.submit{
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    padding: 5px 20px;
+    background-color: #800000;
+    color: #ffff;
+    border: none;
+}
+
+/* The footer section  */
+#footer{
+    background-color: #800000;
+    height: 15vh;
+    color: #ffff;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+.hr{
+    width: 42%;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.socialMedia{
+   text-align: center;
+}
+
+#social{
+    margin-right: 25px;
+    cursor: pointer;
+}
+
+.copyright{
+    text-align: center;
+}
+
+.reviews{
+    margin-right: 100px;
+    color: #800000;
+}
+
+
+
